@@ -1,0 +1,389 @@
+/*________________________site base*/
+body{
+  display: flex;
+  background-color: #F5F5F5;
+  flex-direction: column;
+  font-family: 'Manrope';
+}
+.allSite{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+/*header*/
+.header{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.navbarImg{
+  display: flex;
+  max-width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.image{
+  width: 100%;
+}
+.navbar{
+  margin-top: -2%;
+  width: 100%;
+  height: 115px;
+  display: flex;
+  justify-content: flex-start;
+  background: #381E43;
+
+  border-radius: 25px;
+  z-index: 0;
+  font-size: 120%;
+  font-family: 'Manrope';
+}
+.buttons{
+  width: 45%;
+  display: flex;
+
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+
+  margin-left: 9%;
+  margin-top: 2%;
+  color: white;
+}
+
+/*footer*/
+.footer{
+  display: flex;
+  width: 95%;
+  margin-top: 1%;
+  margin-left: 2.5%;
+  padding-top: 1%;
+  border-top: black solid 2px;
+
+  justify-content: space-between;
+  font-family: 'Manrope';
+}
+.footerLogo{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -0.3%;
+}
+.footerMargin{
+  margin-right: 10px;
+}
+.footerMarginText{
+  margin-left: 15px;
+}
+.footerImage{
+  max-height: 25px;
+  max-height: 25px;
+}
+
+/*________________________home.html*/
+.article{
+  display: flex;
+  width: 82%;
+  margin: 6% 0% 4% 0%;
+  margin-left: 9%;
+  flex-direction: column;
+}
+.articleTitle{
+  letter-spacing: 0.21em;
+  margin-top: -3%;
+  margin-bottom: 5%;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.articleItems{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.articleItemsTitle{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+.articleItemSubtitle{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+}
+
+
+/*________________________portifolio.html*/
+.portifolio{
+  display: flex;
+  width: 82%;
+  margin: 6% 0% 4% 0%;
+  margin-left: 9%;
+  flex-direction: column;
+}
+.portifolioTitle{
+  margin-bottom: 5%;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+}
+.portifolioItems{
+  display: flex;
+  height: 100%;
+  width: 90%;
+  margin-left: 3%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.portifolioTable{
+  display: flex;
+  padding-bottom: 8%;
+  border-bottom: solid black 2px;
+  justify-content: center;
+}
+.teste{
+  display: flex;
+  flex-direction: column;
+}
+.lineOne{
+  display: flex;
+  width: 110%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid black 2px;
+  padding-bottom: 5%;
+  margin: 5% 0% 0% -3%;  
+}
+.lineOneMargin{
+  padding-right: 2.2%;
+  border-right: solid black 2px;
+}
+.buttonDetails{
+  background-color: #618EB7;
+}
+
+/*________________________projeto.html*/
+.projeto{
+  display: flex;
+  width: 82%;
+  margin: 6% 0% 4% 0%;
+  margin-left: 9%;
+  flex-direction: column;
+}
+.projetoTitle{
+  margin-bottom: 5%;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+}
+.projetoItems{
+  display: flex;
+  height: 100%;
+  width: 90%;
+  margin-left: 3%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.projetoImg{
+  display: flex;
+  width: 85%;
+  height: 34.7%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.projetoImgColA{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.projeto3ImgColB{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+
+/*________________________contactos.html*/
+/*sobre mim*/
+.pageAll{
+  display: flex;
+  width: 82%;
+  height: 100%;
+  margin-left: 9%;
+  margin-top: 5%;
+  flex-direction: column;
+  font-family: 'Manrope';
+
+}
+.sobreMim{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.sobreMimAll{
+  padding-bottom: 2%;
+  border-bottom: solid black 2px;
+}
+
+.sobreMimAss{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 4%;
+}
+.sobreMimAssImg{
+  max-width: 100px;
+}
+/*imgs*/
+.imgs{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  margin-right: 1%;
+}
+.imgGDiv{
+  display: flex;
+}
+.imgPDiv{
+  margin-left: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.teste{
+  display: flex;
+  flex-direction: row;
+}
+
+/*Contactos*/
+.contactos{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 4%;
+  flex-direction: column;
+}
+
+.redeSocial{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 3%;
+  flex-direction: row;
+}
+/*ladoA*/
+.redeSocialA{
+  width: 35%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  border-right: solid rgb(0, 0, 0) 2px;
+}
+.svgDescribe{
+  display: flex;
+  width: 50%;
+  height: 100%;
+  margin-left: 3%;
+  margin-top: 10%;
+  margin-bottom: 6%;
+  flex-direction: row;
+
+}
+.svgDescribeImg{
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+}
+.svgDescribeTextMargin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.svgDescribeImgSize{
+  height: 55px;
+}
+
+/*ladoB*/
+.redeSocialB{
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 8%;
+  margin-bottom: 10%;
+}
+.redeSocialBRow{
+  display: flex;
+  width: 60%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.svgDescribeBA{
+  display: flex;
+  width: 100%;
+  height: 35%;
+  padding-top: 5%;
+  margin-right: 10%;
+  margin-top: 25%;
+  margin-bottom: 6%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.svgDescribeBB  {
+  display: flex;
+  width: 100%;
+  height: 35%;
+  padding-top: 5%;
+  padding-bottom: 50%;
+  margin-right: 10%;
+  margin-top: 25%;
+  margin-bottom: 6%;
+  flex-direction: row;
+  align-items: center;
+}
+.svgDescribeImgB{
+  width: 100%;
+  height: 65%;
+  display: flex;
+  align-items: center;
+}
+.svgDescribeTextMarginB{
+  display: flex;
+  align-items: flex-start;
+  padding-left: 6px;
+
+}
